@@ -20,23 +20,10 @@
     },
     "world": {
       "loginserver1": {
-        "account": "",
-        "password": "",
-        "legacy": "1",
-        "host": "login.eqemulator.net",
-        "port": "5998"
-      },
-      "loginserver2": {
         "port": "5998",
         "account": "",
         "password": "",
         "host": "127.0.0.1"
-      },
-      "loginserver3": {
-        "port": "5998",
-        "account": "",
-        "password": "",
-        "host": "login.projecteq.net"
       },
       "tcp": {
         "ip": "0.0.0.0",
@@ -48,8 +35,8 @@
         "enabled": "true"
       },
       "key": "somelongrandomstring12345asdfffff",
-      "shortname": "Akkas Docker PEQ Installer",
-      "longname": "Akkas Docker PEQ Installer",
+      "shortname": "homepeq",
+      "longname": "AardMark Home Server",
       "localaddress": "127.0.0.1"
     },
     "database": {
@@ -71,11 +58,11 @@
   "web-admin": {
     "launcher": {
       "runSharedMemory": true,
-      "runLoginserver": false,
+      "runLoginserver": true,
       "runQueryServ": false,
       "isRunning": true,
       "minZoneProcesses": 10,
-      "staticZones": "butcher,erudnext,freporte,qeynos,freeporte,oot,iceclad,nro,oasis,nedaria,abysmal,natimbi,timorous,abysmal,firiona,overthere"
+      "staticZones": "felwithea,felwitheb,gfaydark,lfaydark,crushbone,mistmoore,butcher,cauldron,unrest,steamfont"
     },
     "quests": {
       "hotReload": true
